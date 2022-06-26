@@ -10,7 +10,7 @@ The operations provided in k-means-sam are :
 
 **USAGE -**
 
-# Making clusters 
+### Making clusters 
 
 Steps - 
 1. Create a k-means model and perform .fit() operations
@@ -33,7 +33,7 @@ print(clusters)
 ~~~~
 
 
-# Querying cluster by id
+### Querying cluster by id
 
 Code:
 ~~~~
@@ -42,7 +42,7 @@ clusters = kmeans_sam.get_all_clusters()
 print(kmeans_sam.get_cluster(2))
 ~~~~
 
-# Sub-clustering k-means clusters by specifying cluster id
+### Sub-clustering k-means clusters by specifying cluster id
 
 ~~~~
 kmeans = KMeans(n_clusters=2)
@@ -51,7 +51,7 @@ kmeans.fit(df[['Feat_1', 'Feat_2', 'Feat_3', 'Feat_4']])
 print(kmeans_sam.subclusterize(kmeans, 0, ['Feat_1', 'Feat_2', 'Feat_3', 'Feat_4']))
 ~~~~
 
-# Merging clusters by cluster_ids
+### Merging clusters by cluster_ids
 Code:
 ~~~~
 print(kmeans_sam.merge_cluster([0, 2]))
