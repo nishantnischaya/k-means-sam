@@ -1,4 +1,4 @@
-# k-means-sams
+# k-means-sam
 k-means sub-clustering and merging library for strong control and flexibility over k-means clustering
 
 The operations provided in k-means-sam are :
