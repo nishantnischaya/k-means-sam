@@ -12,9 +12,10 @@ The operations provided in k-means-sam are :
 
 # Making clusters 
 
-Step 1: Create a k-means model and perform .fit() operations
-Step 2: Create a kmeans-sam object 
-Step 3: kmeans-sam.clusterize(model = kmeans_mode, dataframe = df, predictors = [column_names])
+Steps - 
+1. Create a k-means model and perform .fit() operations
+2. Create a kmeans-sam object 
+3. kmeans-sam.clusterize(model = kmeans_mode, dataframe = df, predictors = [column_names])
 
 Code: 
 ~~~~
