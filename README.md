@@ -10,6 +10,12 @@ The operations provided in k-means-sam are :
 
 **USAGE -**
 
+### Import kmeans-sam
+
+~~~~
+import kmeans_sam as ks
+~~~~
+
 ### Making clusters 
 
 Steps - 
